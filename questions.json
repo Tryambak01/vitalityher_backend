@@ -1,0 +1,196 @@
+[
+  {
+    "question": "Are you getting periods regularly (on time)?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "What is the typical length of your menstrual cycle?",
+    "options": ["1 month", "45 days", "2-3 months"]
+  },
+  {
+    "question": "What is the usual duration of the flow?",
+    "options": ["Less than a day", "5-7 days", "More than 7 days"]
+  },
+  {
+    "question": "How heavy would you say your menstrual flow is?",
+    "options": ["Less than 3 pads", "3-5 pads", "More than 5 pads"]
+  },
+  {
+    "question": "During your menstruating period, did you have a tendency to grow dark, coarse hair on chest and chin?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Have you gained weight in the recent times?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Would you describe yourself as someone who eats junk foods frequently?",
+    "options": ["Very Frequently", "Some times", "Not at all"]
+  },
+  {
+    "question": "How would you rate your meal times and eating patterns?",
+    "options": [
+      "Regular",
+      "Fairly regular",
+      "Quite irregular",
+      "I am never able to follow any schedule"
+    ]
+  },
+  {
+    "question": "How would you rate your sleep schedule/pattern?",
+    "options": [
+      "I follow a regular sleep pattern",
+      "My sleep pattern is fairly regular",
+      "My sleep pattern Quite irregular",
+      "I am never able to follow any schedule"
+    ]
+  },
+  {
+    "question": "Does anybody in your immediate family (parents,siblings) have history of Diabetes?",
+    "options": ["Diabetes-Yes", "Diabetes-No"]
+  },
+  {
+    "question": "Does anybody in your immediate family (parents,siblings) have history of Hypertension?",
+    "options": ["Hypertension-Yes", "Hypertension-No"]
+  },
+  {
+    "question": "How often did you feel tired out for no good reason?(D)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel nervous?(A)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel so nervous that nothing could calm you down?(A)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel hopeless?(D)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel restless or fidgety?(A)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel so restless you could not sit still?(A)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel depressed?(D)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel that everything was an effort?(D)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel so sad that nothing could cheer you up?(D)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "How often did you feel worthless?(D)",
+    "options": [
+      "None of the time",
+      "A little of the time",
+      "some of the time",
+      "Most of the time",
+      "All of the time"
+    ]
+  },
+  {
+    "question": "Intense and persistent fear in social situations in which you feel others might evaluate you?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Fear of being humiliated and/or embarrassed in social situations?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Feeling extremely self-conscious(being the center of attention)?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Fears that others will notice your blushing, sweating?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Do you try very hard to avoid social situations/interactions?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Do you spend a lot of time worrying about how your appearance(weight,facial hair,skin)?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Do you experience dissatisfaction with your appearance/body?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Do you avoid wearing certain clothes because it may make you feel fat?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Do you often compare your appearance/self with others and feel low?",
+    "options": ["Yes", "No"]
+  },
+  {
+    "question": "Does your dissatisfaction and or self-consciousness with your appearance interfere with your activities and interactions (Eg avoidance of activities, or have to use many measures/such as make up)?",
+    "options": ["Yes", "No"]
+  }
+]
