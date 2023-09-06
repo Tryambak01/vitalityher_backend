@@ -54,7 +54,7 @@
     "options": ["Hypertension-Yes", "Hypertension-No"]
   },
   {
-    "question": "How often did you feel tired out for no good reason?(D)",
+    "question": "How often did you feel tired out for no good reason?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -64,7 +64,7 @@
     ]
   },
   {
-    "question": "How often did you feel nervous?(A)",
+    "question": "How often did you feel nervous?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -74,7 +74,7 @@
     ]
   },
   {
-    "question": "How often did you feel so nervous that nothing could calm you down?(A)",
+    "question": "How often did you feel so nervous that nothing could calm you down?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -84,7 +84,7 @@
     ]
   },
   {
-    "question": "How often did you feel hopeless?(D)",
+    "question": "How often did you feel hopeless?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "question": "How often did you feel restless or fidgety?(A)",
+    "question": "How often did you feel restless or fidgety?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -104,7 +104,7 @@
     ]
   },
   {
-    "question": "How often did you feel so restless you could not sit still?(A)",
+    "question": "How often did you feel so restless you could not sit still?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -114,7 +114,7 @@
     ]
   },
   {
-    "question": "How often did you feel depressed?(D)",
+    "question": "How often did you feel depressed?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -124,7 +124,7 @@
     ]
   },
   {
-    "question": "How often did you feel that everything was an effort?(D)",
+    "question": "How often did you feel that everything was an effort?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -134,7 +134,7 @@
     ]
   },
   {
-    "question": "How often did you feel so sad that nothing could cheer you up?(D)",
+    "question": "How often did you feel so sad that nothing could cheer you up?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "question": "How often did you feel worthless?(D)",
+    "question": "How often did you feel worthless?",
     "options": [
       "None of the time",
       "A little of the time",
@@ -162,7 +162,7 @@
     "options": ["Yes", "No"]
   },
   {
-    "question": "Feeling extremely self-conscious(being the center of attention)?",
+    "question": "Feeling extremely self-conscious(being the center of attention?",
     "options": ["Yes", "No"]
   },
   {

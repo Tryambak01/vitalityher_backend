@@ -12,12 +12,11 @@ CORS(app, support_credentials=True)
 @cross_origin(supports_credentials=True)
 def predict():
     try:
-        data = request.json  # Assuming data is sent as JSON
+        data = request.json  # Assuming data is sent as JSON into the backend
         answers = np.array(data['answers'])
         print(answers)
-        # inputD = [1, 2, 3, 2, 2, 4, 4, 3, 3, 2, 1, 2, 3, 4,
-        #         5, 5, 5, 5, 5, 5, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2]
-        prediction = predictRes(answers)  # Call your ML function
+    
+        prediction = predictRes(answers)  # Calling fuzzy logic function
         return prediction
     except Exception as e:
         return jsonify({"message": "Error", "error": str(e)})

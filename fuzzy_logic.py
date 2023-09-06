@@ -1177,35 +1177,84 @@ def main():
 
 def predictRes(res):
 
-    c1, c1_indicies = classification_C1(res[:11])
+    c1, c1_indices = classification_C1(res[:11])
 
-    crest, crest_indicies = classification_Crest(res[11:])
+    crest, crest_indices = classification_Crest(res[11:])
 
     # 0-high
     # 1-normal
     # 2-moderate
     result = ""
-    if c1_indicies[0] == 0:
-        if crest_indicies[0] == 0:
-            result += "High probability of both PCOS and Mental Health issues."
-        elif crest_indicies[0] == 1:
-            result += "High probability of PCOS issues."
+    if c1_indices[0] == 0:
+        if crest_indices[0] == 0:
+            result += "Based on your responses, there is a high probability that you may be experiencing both PCOS (Polycystic Ovary Syndrome) and mental health issues. It's essential to consult with a healthcare professional for a comprehensive evaluation and guidance on managing these conditions."
+
+            # Dietary advice for PCOS
+            result += "\n\nFor PCOS, maintaining a healthy diet can be beneficial. Consider reducing refined carbohydrates and sugars in your diet while focusing on the following:"
+            result += "\n- Incorporate complex carbohydrates like whole grains, fruits, and vegetables."
+            result += "\n- Choose lean sources of protein such as poultry, fish, beans, and tofu."
+            result += "\n- Include healthy fats like those found in avocados, nuts, and olive oil."
+            result += "\n- Monitor your portion sizes and avoid overeating."
+
+            # Mental health guidance
+            result += "\n\nRegarding your mental health, it's equally important to prioritize self-care and seek support from mental healthcare professionals."
+
+        elif crest_indices[0] == 1:
+            result += "Based on your responses, there is a high probability that you may be experiencing PCOS issues. It's recommended to seek medical advice and discuss your symptoms with a healthcare provider."
+
+            # Dietary advice for PCOS
+            result += "\n\nFor PCOS, maintaining a healthy diet can be beneficial. Consider reducing refined carbohydrates and sugars in your diet while focusing on the following:"
+            result += "\n- Incorporate complex carbohydrates like whole grains, fruits, and vegetables."
+            result += "\n- Choose lean sources of protein such as poultry, fish, beans, and tofu."
+            result += "\n- Include healthy fats like those found in avocados, nuts, and olive oil."
+            result += "\n- Monitor your portion sizes and avoid overeating."
+
         else:
-            result += "High probability of PCOS issues with moderate probability of Mental Health issues."
-    elif c1_indicies[0] == 1:
-        if crest_indicies[0] == 0:
-            result += "High probability of Mental Health issues."
-        elif crest_indicies[0] == 1:
-            result += "Normal"
+            result += "Based on your responses, there is a high probability that you may be experiencing PCOS issues with a moderate probability of also having mental health issues. It's crucial to consult with a healthcare professional to address these concerns."
+
+            # Dietary advice for PCOS
+            result += "\n\nFor PCOS, maintaining a healthy diet can be beneficial. Consider reducing refined carbohydrates and sugars in your diet while focusing on the following:"
+            result += "\n- Incorporate complex carbohydrates like whole grains, fruits, and vegetables."
+            result += "\n- Choose lean sources of protein such as poultry, fish, beans, and tofu."
+            result += "\n- Include healthy fats like those found in avocados, nuts, and olive oil."
+            result += "\n- Monitor your portion sizes and avoid overeating."
+
+            # Mental health guidance
+            result += "\n\nRegarding your mental health, it's important to reach out to a mental healthcare provider for a comprehensive evaluation and support."
+
+    elif c1_indices[0] == 1:
+        if crest_indices[0] == 0:
+            result += "Based on your responses, there is a high probability that you may be experiencing mental health issues. It's essential to reach out to a mental healthcare provider to discuss your symptoms and seek appropriate support."
+
+        elif crest_indices[0] == 1:
+            result += "Based on your responses, it appears that you are within the normal range for PCOS and mental health issues. However, if you have any persistent concerns or symptoms, it's advisable to consult with a healthcare professional."
+
         else:
-            result += "Moderate probability of Mental Health issues."
-    else:
-        if crest_indicies[0] == 0:
-            result += "Moderate probability of PCOS issues with high probability of Mental Health issues."
-        elif crest_indicies[0] == 1:
-            result += "Moderate probability of PCOS issues."
+            result += "Based on your responses, there is a moderate probability that you may be experiencing mental health issues. It's recommended to contact a mental healthcare provider for further evaluation and support."
+
+    elif c1_indices[0] == 2:
+        if crest_indices[0] == 0:
+            result += "Based on your responses, there is a moderate probability that you may be experiencing PCOS issues with a high probability of also having mental health issues. It's crucial to consult with healthcare professionals who can address both aspects of your health."
+
+            # Dietary advice for PCOS
+            result += "\n\nFor PCOS, maintaining a healthy diet can be beneficial. Consider reducing refined carbohydrates and sugars in your diet while focusing on the following:"
+            result += "\n- Incorporate complex carbohydrates like whole grains, fruits, and vegetables."
+            result += "\n- Choose lean sources of protein such as poultry, fish, beans, and tofu."
+            result += "\n- Include healthy fats like those found in avocados, nuts, and olive oil."
+            result += "\n- Monitor your portion sizes and avoid overeating."
+
+        elif crest_indices[0] == 1:
+            result += "Based on your responses, there is a moderate probability that you may be experiencing PCOS issues. It's recommended to seek medical advice and discuss your symptoms with a healthcare provider."
+
+            # Dietary advice for PCOS
+            result += "\n\nFor PCOS, maintaining a healthy diet can be beneficial. Consider reducing refined carbohydrates and sugars in your diet while focusing on the following:"
+            result += "\n- Incorporate complex carbohydrates like whole grains, fruits, and vegetables."
+            result += "\n- Choose lean sources of protein such as poultry, fish, beans, and tofu."
+            result += "\n- Include healthy fats like those found in avocados, nuts, and olive oil."
+            result += "\n- Monitor your portion sizes and avoid overeating."
+
         else:
-            result += "Moderate probability of both PCOS issues and Mental Health issues."
+            result += "Based on your responses, there is a moderate probability that you may be experiencing both PCOS issues and mental health issues. It's advisable to consult with healthcare professionals for a comprehensive evaluation and appropriate guidance."
 
     return result
 
